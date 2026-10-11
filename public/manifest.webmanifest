@@ -1,0 +1,57 @@
+{
+  "name": "Kopi — Desk d'impression",
+  "short_name": "Kopi",
+  "description": "Gestion des travaux d'impression pour Kinshasa. Rapide, hors ligne, PWA.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#8a3ffc",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
+{
+  "name": "Kopi — Desk d'impression",
+  "short_name": "Kopi",
+  "description": "Kopi: gestion des travaux d'impression à Kinshasa. Offline-first, rapide, installable.",
+  "lang": "fr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#8a3ffc",
+  "background_color": "#f8f7f4",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Nouveau travail", "url": "/jobs/new" },
+    { "name": "Tableau de bord", "url": "/dashboard" }
+  ]
+}
